@@ -70,7 +70,7 @@ main {
   display: flex;
   flex-direction: column;
     background: white;
-    background-image: url(/imagenes/nuñeco.png);
+    background-image: url(imagenes/nuñeco.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
