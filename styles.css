@@ -169,11 +169,12 @@ main {
      font-size: small;
     }
 
-  
+  .informacion {
+    justify-content: left;
+  }
     
     .info{
       font-size: small;
-
     }
     
     
@@ -194,8 +195,9 @@ main {
     
     .icon{
       height: 15px;
-        width: 20px;
-        margin-top: 3px;
+      width: 20px;
+      margin-left: 0%;
+      margin-top: 1%;
 
     }
     
