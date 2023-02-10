@@ -168,9 +168,12 @@ main {
      width: 100px;
      font-size: small;
     }
+
+  
     
     .info{
-      font-size: small
+      font-size: small;
+
     }
     
     
@@ -192,7 +195,8 @@ main {
     .icon{
       height: 15px;
         width: 20px;
-        margin-top: 30px;
+        margin-top: 3px;
+
     }
     
     
