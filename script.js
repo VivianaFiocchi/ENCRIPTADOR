@@ -19,10 +19,9 @@ function btnEncriptar(){
     if(!validarTexto()) {
         const textoEncriptado = encriptar(textArea.value)
         mensaje.value = textoEncriptado
-        mensaje.style.backgroundImage = "none"
+        mensaje.style.backgroundImage = "none";
         textArea.value = "";
-        copia.style.display = "block"
-    
+        copia.style.display = "block";
     }
 }
 

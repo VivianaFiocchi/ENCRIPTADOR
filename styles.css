@@ -7,6 +7,8 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 150%;
+  margin: 0%;
+  padding: 0%;
 }
 
 /*HEADER*/
@@ -22,9 +24,9 @@ header {
 
 main {
   display: flex;
-  flex-direction: column;
   margin-bottom: 50px;
   margin-left: 80px;
+  
 }
 
 .titulo{
@@ -42,7 +44,8 @@ main {
   border: none;
   color: #0a3871;
   margin-top: 20px;
-  text-transform: lowercase;
+  text-align: center;
+
 }
 
 ::placeholder {
@@ -54,13 +57,14 @@ main {
 
 .informacion{
     display: flex;
+    margin-top: 30px;
 }
 .info{
     color: #495057;
     font-size: 18px;
 }
 .icon{
-    margin-top: 25px;
+    margin-top: -15px;
     height: 50px;
     width: 50px;
 }
@@ -71,7 +75,7 @@ main {
   display: flex;
   flex-direction: column;
     background: white;
-    background-image: url(/imagenes/nuñeco.png);
+    background-image: url(imagenes/nuñeco.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
@@ -80,6 +84,7 @@ main {
     margin-left: 90px;
     margin-top: 20px;
     padding-left: 20px;
+    text-align: center;
 }
 
 .texto-encriptado:focus{
@@ -91,7 +96,7 @@ main {
 
 .btns {
     display: flex;
-    margin-top: 18px;
+    margin-top: 65px;
 }
 
 .btn-encriptar{
@@ -102,6 +107,7 @@ main {
     cursor: pointer;
     height: 67px;
     width: 328px;
+    
 }
 
 .btn-desencriptar{
@@ -132,8 +138,12 @@ main {
   
   main{
     font-size: media;
+    flex-direction: column;
+    margin-left: 6%;
   }
   
+
+
   .titulo{
     font-size: medium;
   }
@@ -141,7 +151,6 @@ main {
     .texto{
         height: 300px;
         width: 300px;
-         
     }
     
     ::placeholder{
@@ -175,9 +184,9 @@ main {
     }
     
     .logo{
-        height: 105px;
-        width: 130px;
-        margin: auto;
+        height: 90px;
+        width: 100px;
+        margin-left: 0%;
     }
     
     .icon{
