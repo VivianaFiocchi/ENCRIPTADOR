@@ -26,6 +26,7 @@ main {
   display: flex;
   margin-bottom: 50px;
   margin-left: 80px;
+  
 }
 
 .titulo{
@@ -43,7 +44,8 @@ main {
   border: none;
   color: #0a3871;
   margin-top: 20px;
-  text-transform: lowercase;
+  text-align: center;
+
 }
 
 ::placeholder {
@@ -55,13 +57,14 @@ main {
 
 .informacion{
     display: flex;
+    margin-top: 30px;
 }
 .info{
     color: #495057;
     font-size: 18px;
 }
 .icon{
-    margin-top: 25px;
+    margin-top: -15px;
     height: 50px;
     width: 50px;
 }
@@ -81,6 +84,7 @@ main {
     margin-left: 90px;
     margin-top: 20px;
     padding-left: 20px;
+    text-align: center;
 }
 
 .texto-encriptado:focus{
@@ -92,7 +96,7 @@ main {
 
 .btns {
     display: flex;
-    margin-top: 18px;
+    margin-top: 65px;
 }
 
 .btn-encriptar{
