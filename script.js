@@ -6,7 +6,7 @@ copia.style.display = "none"
 
 function validarTexto(){
     let textoEscrito = document.querySelector(".texto").value;
-    let validador = textoEscrito.match(/^[a-z\s\.\?\¿]*$/);
+    let validador = textoEscrito.match(/^[a-z\s\.\?\¿\,]*$/);
   
 
     if(!validador || validador === 0) {
